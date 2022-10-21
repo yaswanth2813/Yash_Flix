@@ -1,119 +1,120 @@
-body{
-	margin: auto 0;
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
 }
-h1{
-	color: red;
-	border-bottom: solid black 3px;
-	border-right: solid black 3px;
-	box-shadow: 4px 4px 4px #888888;
-	width: 200px;
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.view-here {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.container-one {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/23/62/87/1000_F_323628715_FdXxzqMJk1qdSsUnApoxjg9aTGDZ8tSD.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.wcu-card {
+    color: white;
+    background-image: radial-gradient(#3F9322, #101110);
     text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
 }
 
-.zone{
-     border: solid #bbb 1px;
-     /*display: inline-block;*/
-     cursor: pointer;
-
-
-}
-.zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+.heading-menu {
+    font-size: 20px;
 }
 
-
-
-@media only screen and (max-width: 600px){
-	.main-nav{
-		font-size: 0.5em;
-		padding: 0;
-	}
-}
-.main-nav{
-      display: flex;
-      list-style: none;
-      font-size: 0.7em;
-      margin: 0;
-} 
-.stickyy {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky {
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-.push{
-	margin-left: auto;
-	color: yellow;
+.w-100 {
+    border-radius: 5px;
 }
 
-li{
-   padding: 20px;
-   font-size: 20px;
+.menu-section {
 
-}
-.main-nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    font-size: 0.7em;
-}
-.container{
-	display: flex;
-	height: 70vh;
-	background-image: url(https://lh3.googleusercontent.com/ZV8lT9XbuYLdO4mG81mSIF3tzO-rW6gFy_j4gHB2xvQmnLL43yIjV8zU-xe3uZFyXAHcv1intcdHvZxJTQ59MamCCX6qlQGb6w44TSVFLdSkp2Tah7srp_9InRb4Y0TFSWeHdOA8D904oZPNgiNc1hXKAzw-QQdKHFVYWiZPVoabGshduN955ewmfp305kAZZwvz2S9zfn7oNzK6UDOR27Lk24NTkndzFkYLcY32cGD93nx-nvy2IW5rHmksJz8sUQS5ePnvN3HlXzO_6Jrgudh2kXvyAmk1dIk908u326zHM4b5ug7kSGRwSHFKrBErHHuXpMITeO166XdHyyp1eS-Ga6ZX237FAmIUIywFpAbYV0qCL4DtTUgCvVgpTjc7gWOgDdla-VbLrlXwadUbPUYnly898rhrVJjYroinxlsyfL0DdJURqpz_n4O4-9YODAI1i01L4SCdyNTYmdcRZXyW8ZaRUgUAvzXB2rDF4ujSzTRhUep3tIy_OUdKVmJ-k2QeoX1OQwqqSF2E2SA-Gg-ZfqBqNitI1DWdE0XHZXMh5que2T3k-XB6Ld3Ohr9JOdtFOn2hlQqJ7VhGfUkZd6hkrAdrXvOtCpuTy5PmsxwxH5Zig-rvifBpiXCLr173e3q81LBGOH3C0YXGphHaz8ybsYMEhMVBuA4KxtH6wR9ZYq4KXDBXaB5TsL2Z7sbTZ3_LtbNVs6qVIblSGfbO2pfEKq3bMn9tj0Wxem7ue8QkwdnKiz9wMKBy6pMxR7NDNPDP-UjxFbw1NqNoMzL6Yv19CZtU1cMf9Ws=w960-h420-no?authuser=0);
-	background-size: cover;	
+    height: 100vh;
 }
 
-.anime{
-	transition: all 1s;
-}
-.anime:hover{
-    transform: scale(1.1);
-}
-.detail{
-	height: 10vh;
-	display: flex;    
-}
-.cap{
-	display: flex;
-	text-decoration: none;
-	list-style: none;
-	margin: 0;
-    font-size: 0.7em;
-}
-
-.whatsapp{
-	color: green;
-}
-.grid-wrapper{
-	display: flex;
-	
-	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
-	grid-gap: 20px;
+.card {
+    border-radius: 10px;
 
 }
-.box>img{
-   width: 100%;
-}
-.black{
-	background: black;
-	color: red;
-}
-.yellow{
-	background: black;
 
-}
-/*.white{
-	background: black;
-}*/
-.red{
-	background:blanchedalmond;
-}
+.pizza-heading {
 
+
+    color: white;
+    font-size: 100px;
+}
