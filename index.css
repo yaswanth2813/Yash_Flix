@@ -56,7 +56,7 @@
     }
     .car-img{
     width: 100%;
-    height: 50vh;
+    height: 60vh;
 }
 }
 
@@ -88,6 +88,9 @@
     padding: 5px;
 
 
+}
+.kar-bg{
+    background-color: whitesmoke;
 }
 
 
