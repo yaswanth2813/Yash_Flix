@@ -13,6 +13,13 @@
     .p-1 {
         font-size: 25px;
     }
+    
+    .car-img{
+    width: 100%;
+    height: 80vh;
+}
+    
+
 }
 
 @media (min-width:768px) {
@@ -28,6 +35,10 @@
     .p-1 {
         font-size: 22px;
     }
+    .car-img{
+    width: 100%;
+    height: 80vh;
+}
 }
 
 @media (min-width:576px) {
@@ -78,10 +89,7 @@
 
 
 }
-.car-img{
-    width: 100%;
-    height: 80vh;
-}
+
 
 .card {}
 
