@@ -163,3 +163,13 @@ a:active {
     width: 20%;
     height: 190px;
 }
+.main-bg{
+    background-image: url();
+}
+
+.premieres{
+    background-image: url();
+    background-size: contain;
+
+
+}
