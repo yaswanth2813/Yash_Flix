@@ -1,14 +1,25 @@
 .bg{
-	background-color: white;
+	color: white;
+	background-color:;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 35px;
-    width: 100%;
+    width: 50%;
     margin-top: 5px;
 }
-.container{
-	background-color: white;
+.list{
+	padding: 20px;
+	
+}
+.container-fluid{
+	background-image:url(https://www.screenbinge.com/wp-content/uploads/2023/09/Bigg-Boss-Telugu-Season-7-on-DisneyHotstar-SB-1.jpg);
 	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 
+}
+.banner{
+	height: 50vh;
+	width: 100%;
 }
 p{
 	padding-left: 10px;
