@@ -184,3 +184,11 @@ a:active {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+.premieres{
+    border-radius: 30px;
+}
+
+.premiere{
+    border-radius: 30px;
+}
