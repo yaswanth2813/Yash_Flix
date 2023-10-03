@@ -204,7 +204,8 @@ a:active {
 }
 
 .premieres{
-    background-image: url();
+    background-image: linear-gradient(to right,blue,white,green);
+
     background-size: contain;
 
 
@@ -219,5 +220,11 @@ a:active {
 .card{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    background-color: #d4af37;
 }
 
+.title{
+    color:whitesmoke;
+    font-family: Garamond;
+    font-weight: bold;
+}
