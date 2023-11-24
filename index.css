@@ -83,6 +83,7 @@
         height: 70vh;
     }
 }
+
 @media (min-width:768px) {
     .image {
         height: 350px;
@@ -109,6 +110,7 @@
         height: 59vh;
     }
 }
+
 @media (max-width:576px) {
     .image {
         height: 220px;
@@ -154,7 +156,6 @@
 }
 
 
-.card {}
 
 a:link {
     text-decoration: none;
@@ -175,36 +176,39 @@ a:active {
 
 
 .your-container {
-      width: 100%;
-      overflow-x: auto;
-      white-space: nowrap; /* Prevent text wrapping */
-    }
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+}
 
-    .your-container::-webkit-scrollbar {
-      width: 12px;
-    }
+.your-container::-webkit-scrollbar {
+    width: 12px;
+}
 
-    .your-container::-webkit-scrollbar-thumb {
-      background-color: #888;
-    }
+.your-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
 
-    .your-container::-webkit-scrollbar-thumb:hover {
-      background-color: #555;
-    }
+.your-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
 
-    .your-container {
-      cursor: grab;
-    }
-.channel-img{
+.your-container {
+    cursor: grab;
+}
+
+.channel-img {
     width: 20%;
     height: 190px;
 }
-.main-bg{
+
+.main-bg {
     background-image: url();
 }
 
-.premieres{
-    background-image: linear-gradient(to right,blue,white,green);
+.premieres {
+    background-image: linear-gradient(to right, blue, white, green);
 
     background-size: contain;
 
@@ -212,19 +216,27 @@ a:active {
 }
 
 
-.image{
+.image {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-.card{
+.card {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: #d4af37;
 }
 
-.title{
-    color:whitesmoke;
+.title {
+    color: whitesmoke;
     font-family: Garamond;
     font-weight: bold;
+}
+
+.theme-btn {
+
+    width: 100%;
+    margin: 5px;
+    color: whitesmoke;
+
 }
